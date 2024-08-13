@@ -1,7 +1,14 @@
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/youtube-watcher/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Redirige vers la route correcte
+      var path = window.location.pathname
+      var newUrl = window.location.origin + '/youtube-watcher' + path.replace('/youtube-watcher/', '')
+      window.location.href = newUrl
+    </script>
   </head>
   <body></body>
 </html>
