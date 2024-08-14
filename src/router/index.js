@@ -11,7 +11,15 @@ export default createRouter({
     { name: 'rokhTempleHomepage', path: routes.rokhTempleHomepage, component: pages.rokhTempleHomepage },
     { name: 'youtubeWatcher', path: routes.youtubeWatcher, component: pages.youtubeWatcher },
     { name: 'rokhMusicPlaylist', path: routes.rokhMusicPlaylist, component: pages.rokhMusicPlaylist },
-    { name: 'nothing', path: routes.nothing, component: pages.nothing }
+
+    // nothing page route for pages not found error.
+    { name: 'nothing', path: routes.nothing, component: pages.nothing },
+
+    // default route that redirect on 'bookHomepage'.
+    { name: 'default', path: '/', redirect: { name: 'bookHomepage' } },
+
+    // route to capture all non defined routes.
+    { path: '/:catchAll(.*)', redirect: { name: 'nothing' } }
   ]
 })
 

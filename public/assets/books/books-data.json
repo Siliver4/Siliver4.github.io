@@ -1,0 +1,51 @@
+[
+    {
+      "id": "book_001",
+      "title": "Le Seigneur des Agneaux",
+      "author": "J.R.R. Etorkien",
+      "edition": "Gallimard",
+      "saga": "Le Seigneur des Agneaux",
+      "genre": "Fantasy",
+      "genres": ["Fantasy", "Adventure", "Epic"],
+      "description": "Une épopée fantastique dans un monde médiéval peuplé de créatures mythiques.",
+      "pdf": "seigneur-des-agneaux.pdf",
+      "main_images": [
+        "seigneur-des-agneaux-main.jpg",
+        "seigneur-des-agneaux-main2.jpg"
+      ],
+      "secondary_images": [
+        "seigneur-des-agneaux-sec.jpg",
+        "seigneur-des-agneaux-sec2.jpg"
+      ],
+      "retail_links": [
+        "https://example.com/buy/seigneur-des-agneaux-amazon",
+        "https://example.com/buy/seigneur-des-agneaux-carrefour"
+      ],
+      "author_comment": "Un classique de la littérature fantasy."
+    },
+    {
+        "id": "book_002",
+        "title": "Le Seigneur des Agneaux Rouges",
+        "author": "J.R.R. Etorkien",
+        "edition": "Gallimard",
+        "saga": "Le Seigneur des Agneaux",
+        "genre": "Fantasy",
+        "genres": ["Fantasy", "Adventure", "Epic"],
+        "description": "Une épopée fantastique dans un monde médiéval peuplé de créatures mythiques.",
+        "pdf": "seigneur-des-agneaux-rouges.pdf",
+        "main_images": [
+          "seigneur-des-agneaux-rouges-main.jpg",
+          "seigneur-des-agneaux-rouges-main2.jpg"
+        ],
+        "secondary_images": [
+          "seigneur-des-agneaux-rouges-sec.jpg",
+          "seigneur-des-agneaux-rouges-sec2.jpg"
+        ],
+        "retail_links": [
+          "https://example.com/buy/seigneur-des-agneaux-rouges-amazon",
+          "https://example.com/buy/seigneur-des-agneaux-rouges-carrefour"
+        ],
+        "author_comment": "Un classique de la littérature fantasy."
+      }
+  ]
+  

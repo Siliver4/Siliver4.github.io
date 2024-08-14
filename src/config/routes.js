@@ -1,6 +1,5 @@
 export const base = '/'
-//rokh-temple
-//siliver4.github.io
+
 export const routes = {
   // ======= family-showcase : =========================================================== //
   familyShowcaseHomepage: '/family-showcase',

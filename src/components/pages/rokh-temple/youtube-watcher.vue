@@ -62,14 +62,15 @@ body {
 export default {
   data() {
     return {
+      dropContainer: null,
       youtubeIframeUrl: 'https://www.youtube.com/embed/X-6riincY-0'
     }
   },
   mounted() {
-    var dropContainer = document.getElementById('dropContainer')
-    dropContainer.addEventListener('dragover', this.onDragOver)
-    dropContainer.addEventListener('drop', this.onDrop)
-    dropContainer.addEventListener('dragleave', this.onDragLeave)
+    this.dropContainer = document.getElementById('dropContainer')
+    this.dropContainer.addEventListener('dragover', this.onDragOver)
+    this.dropContainer.addEventListener('drop', this.onDrop)
+    this.dropContainer.addEventListener('dragleave', this.onDragLeave)
   },
   beforeUnmount() {
     window.removeEventListener('dragover', this.onDragOver)
@@ -82,22 +83,28 @@ export default {
     },
     onDragOver(event) {
       event.preventDefault()
-      dropContainer.style.border = '2px dashed black'
+      if (this.dropContainer) {
+        this.dropContainer.style.border = '2px dashed black'
+      }
     },
     onDrop(event) {
       event.preventDefault()
-      dropContainer.style.border = '2px dashed black'
+      if (this.dropContainer) {
+        this.dropContainer.style.border = '2px dashed black'
 
-      // Get the dropped URL
-      var url = event.dataTransfer.getData('text/plain')
+        // Get the dropped URL
+        var url = event.dataTransfer.getData('text/plain')
 
-      // Process the URL as needed
-      console.log('Dropped URL: ' + url)
-      this.handleOnDropAction(url)
+        // Process the URL as needed
+        console.log('Dropped URL: ' + url)
+        this.handleOnDropAction(url)
+      }
     },
-    onDragLeave(event) {
+    onDragLeave() {
       // Reset border when leaving the drop area
-      dropContainer.style.border = '2px dashed #ccc'
+      if (this.dropContainer) {
+        this.dropContainer.style.border = '2px dashed #ccc'
+      }
     },
     handleOnDropAction(youtubeUrl) {
       try {

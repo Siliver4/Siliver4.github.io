@@ -1,7 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { routes } from '@/config'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
@@ -9,3 +7,11 @@ import HelloWorld from './components/HelloWorld.vue'
     <RouterView />
   </div>
 </template>
+
+<style>
+/* Style du conteneur de l'application principale */
+#app {
+  display: flex;
+  justify-content: center;
+}
+</style>
