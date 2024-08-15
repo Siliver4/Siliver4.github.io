@@ -4,7 +4,7 @@ export const routes = {
   // ======= family-showcase : =========================================================== //
   familyShowcaseHomepage: '/family-showcase',
   bookHomepage: '/family-showcase/book-homepage',
-  bookDetail: '/family-showcase/book-detail',
+  bookDetail: '/family-showcase/book-detail/:id',
   gameHomepage: '/family-showcase/game-homepage',
   gameDetail: '/family-showcase/game-detail',
   parodyVideoHomepage: '/family-showcase/parody-video-homepage',

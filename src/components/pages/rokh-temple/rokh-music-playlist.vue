@@ -1,5 +1,5 @@
 <style>
-.row {
+.rowalex {
   display: flex;
 }
 
@@ -35,7 +35,7 @@
 
   <input type="text" id="fname" name="fname" />
 
-  <div class="row">
+  <div class="rowalex">
     <div id="dropContainer" class="left center">
       <p>Drag and drop me some youtube url here please I'm hungry...</p>
     </div>

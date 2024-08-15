@@ -11,8 +11,6 @@
     <svg center icon="personne-jacuzzi" lib-size="xxxl"></svg>
   </div>
 
-  <img src="..." class="d-block w-100" alt="..." />
-
   <div class="carousel-container">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -42,10 +40,50 @@
       </button>
     </div>
   </div>
+
+  <BookHeader />
+  <div id="app-main-div">
+    <BookPdfOrDescriptionArea :pdf="pdf" />
+    <BookMainImagesCarousel :images="imageList" />
+    <BookRetailLinkList />
+    <BookComment />
+    <BookSecondaryImagesCarousel :images="imageList" />
+  </div>
+  <BookFooter />
 </template>
 
 <script>
+import BookHeader from '@/components/pages/family-showcase/books/widgets/book-header.vue'
+import BookPdfOrDescriptionArea from '@/components/pages/family-showcase/books/widgets/book-pdf-or-description-area.vue'
+import BookMainImagesCarousel from '@/components/pages/family-showcase/books/widgets/book-main-images-carousel.vue'
+import BookRetailLinkList from '@/components/pages/family-showcase/books/widgets/book-retail-link-list.vue'
+import BookComment from '@/components/pages/family-showcase/books/widgets/book-comment.vue'
+import BookSecondaryImagesCarousel from '@/components/pages/family-showcase/books/widgets/book-secondary-images-carousel.vue'
+import BookFooter from '@/components/pages/family-showcase/books/widgets/book-footer.vue'
+
 export default {
+  components: {
+    BookHeader,
+    BookPdfOrDescriptionArea,
+    BookMainImagesCarousel,
+    BookRetailLinkList,
+    BookComment,
+    BookSecondaryImagesCarousel,
+    BookFooter
+  },
+  data() {
+    return {
+      imageList: [
+        '/assets/books/book_001/main_images/images/seigneur-des-agneaux-main.jpg',
+        '/assets/books/book_001/main_images/images/image2.jpg',
+        '/assets/books/book_001/main_images/images/image3.jpg',
+        '/assets/books/book_001/main_images/images/image4.jpg',
+        '/assets/books/book_001/main_images/images/image5.jpg',
+        '/assets/books/book_001/main_images/images/image6.jpg',
+        '/assets/books/book_001/main_images/images/image7.jpg'
+      ]
+    }
+  },
   methods: {
     back() {
       this.$router.back()

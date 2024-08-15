@@ -46,7 +46,7 @@ npx prettier . --write
 ```
 
 ### En Mode Auto Save :
-Pour que le formattage se lance automatiquement à la sauvegarde, ajouter ceci dans la configuration intellij `(CTRL + SHIFT + P)` rechercher le nom suivant `Preferences: Open User Settings (JSON)`, pour finalement ouvrir un fichier `settings.json`. Il suffit alors de sauvegarder un fichier avec une ligne mal indenté ou équivelent pour voir la magie de prettier opérer toute seule.
+Pour que le formattage se lance automatiquement à la sauvegarde, ajouter ceci dans la configuration VSC (Visual Studio Code) `(CTRL + SHIFT + P)` rechercher le nom suivant `Preferences: Open User Settings (JSON)`, pour finalement ouvrir un fichier `settings.json`. Il suffit alors de sauvegarder un fichier avec une ligne mal indenté ou équivelent pour voir la magie de prettier opérer toute seule.
 
 ```js
 {

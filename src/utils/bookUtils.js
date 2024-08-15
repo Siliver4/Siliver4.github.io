@@ -27,9 +27,9 @@ class BookUtils {
     return this.books.filter((book) => book.saga === saga)
   }
 
-  // Method to get all books by genre
+  // Method to get all books by it's main genre
   getBooksByGenre(genre) {
-    return this.books.filter((book) => book.genre === genre)
+    return this.books.filter((book) => book.main_genre === genre)
   }
 
   // Method to get the first main images from a book

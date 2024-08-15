@@ -5,11 +5,11 @@ import * as pages from '@/components/pages'
 export default createRouter({
   history: createWebHistory(base),
   routes: [
-    { name: 'bookHomepage', path: routes.bookHomepage, component: pages.bookHomepage },
-    { name: 'bookDetail', path: routes.bookDetail, component: pages.bookDetail },
+    { name: 'bookHomepage', path: routes.bookHomepage, component: pages.bookHomepage, meta: { title: 'Rokh Family Showcase' } },
+    { name: 'bookDetail', path: routes.bookDetail, component: pages.bookDetail, meta: { title: 'Rokh Family Showcase: Book Detail Page' } },
 
-    { name: 'rokhTempleHomepage', path: routes.rokhTempleHomepage, component: pages.rokhTempleHomepage },
-    { name: 'youtubeWatcher', path: routes.youtubeWatcher, component: pages.youtubeWatcher },
+    { name: 'rokhTempleHomepage', path: routes.rokhTempleHomepage, component: pages.rokhTempleHomepage, meta: { title: 'Rokh Temple' } },
+    { name: 'youtubeWatcher', path: routes.youtubeWatcher, component: pages.youtubeWatcher, meta: { title: 'Rokh Temple: youtube-watcher page' } },
     { name: 'rokhMusicPlaylist', path: routes.rokhMusicPlaylist, component: pages.rokhMusicPlaylist },
 
     // nothing page route for pages not found error.
