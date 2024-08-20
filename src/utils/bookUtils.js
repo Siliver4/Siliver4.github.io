@@ -3,6 +3,7 @@ class BookUtils {
     this.books = []
   }
 
+  // Method use to fetch all the books from the json data file
   async fetchBooks() {
     try {
       const response = await fetch('/assets/books/books-data.json')

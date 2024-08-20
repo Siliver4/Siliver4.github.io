@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <button class="btn btn-primary" @click="slideRight">b</button>
-  </div>
+  <h4 class="mt-3">Information sur l'oeuvre :</h4>
+  <p class="mt-3">{{ description }}</p>
 </template>
 
 <script>
 export default {
   props: {
-    text: String
+    pdf: String,
+    description: String
   }
 }
 </script>

@@ -14,9 +14,9 @@
                 <p class="card-text">
                   <small class="text-muted">Saga : {{ book.saga }}</small>
                 </p>
-                <!-- Conteneur de badges avec limitation à deux lignes -->
+                <!-- Conteneur de badges avec limitation à 4 éléments maximum et sur deux lignes au maximum -->
                 <div class="genres-container">
-                  <span v-for="genre in book.genres" :key="genre" class="badge rounded-pill bg-secondary me-2 mb-2">{{ genre }}</span>
+                  <span v-for="genre in book.genres.slice(0, 4)" :key="genre" class="badge rounded-pill bg-secondary me-2 mb-2">{{ genre }}</span>
                 </div>
               </div>
             </div>

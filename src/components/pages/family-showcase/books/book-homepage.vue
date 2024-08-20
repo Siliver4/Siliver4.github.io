@@ -1,13 +1,18 @@
 <template>
-  <BookHeader />
-  <div id="app-main-div">
-    <BookHomepageDescription />
-    <BookCards :grouped-books="groupAndSortBooksBySaga(books)" />
+  <div v-if="!loading">
+    <BookHeader />
+    <div id="app-main-div">
+      <BookHomepageDescription />
+      <BookCards :grouped-books="groupAndSortBooksBySaga(books)" />
+    </div>
+    <BookFooter />
   </div>
-  <BookFooter />
 </template>
 
 <script>
+import { commonStore } from '@/stores'
+import { mapState, mapActions } from 'pinia'
+
 import { routes } from '@/config'
 import BookUtils from '@/utils/bookUtils'
 
@@ -30,7 +35,22 @@ export default {
       books: []
     }
   },
+  async created() {
+    await this.bookUtils.fetchBooks()
+    this.books = this.bookUtils.getBooks()
+  },
+  mounted() {
+    this.setLoading(true)
+    // on simule un timeout de 200ms just for fun
+    setTimeout(() => {
+      this.setLoading(false)
+    }, 200)
+  },
+  computed: {
+    ...mapState(commonStore, ['loading'])
+  },
   methods: {
+    ...mapActions(commonStore, ['setLoading']),
     /**
      * 1.) on trie la liste des livres par saga dans l'ordre alphabétique des noms de saga.
      * Entrée [B;B;B;B;B;C;A;A;A;D;D] -> sortie [[A;A;A];[B;B;B;B;B];[C];[D;D]]
@@ -76,14 +96,7 @@ export default {
       }
 
       return groupedBooks
-    },
-    back() {
-      this.$router.push({ name: 'default' })
     }
-  },
-  async created() {
-    await this.bookUtils.fetchBooks()
-    this.books = this.bookUtils.getBooks()
   }
 }
 </script>

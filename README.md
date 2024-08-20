@@ -2,6 +2,9 @@
 site web vitrine famille
 -> pour consulter le site, aller sur l'url suivante 'https://siliver4.github.io/family-showcase/book-homepage'
 
+## libraries doc
+Bootstrap5 https://getbootstrap.com/docs/5.0
+
 ## Project Setup
 ```sh
 npm install
@@ -80,3 +83,13 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Customize configuration
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+
+---
+# petite todo liste d'idée potentielle à garder au chaud sous un coude :
+- un fichier qui liste d'un millier d'annecdotes en lien avec les livres ou présentes dans les livres.
+  - fichier json.
+  - système d'affichage basé sur le fait de prendre par exemple 5 annecdotes de la liste de manière aléatoire, différente à chaque F5.
+  - éventuellement placer dans le json des liens vers les id des livres concernés, afin de pouvoir ouvrir une page listant ces derniers.
+  - recherche d'annecdotes via un champ / page prévu pour.
+  - notion d'annecdote qui pourrait aider au référencement du site.

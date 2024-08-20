@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="custom-header">
-      <img src="/assets/books/rokh_logo_grey_fire.png" alt="Website Logo" class="header-logo d-none d-xxl-block" />
+      <img src="/assets/books/rokh_logo_grey_fire.png" alt="Website Logo" class="header-logo d-none d-xxl-block" @click="goToBookHomepage()" />
       <div class="header-text">
         <h2>Bienvenue sur le site référençant les oeuvres littéraires de</h2>
         <h3>Mr A, Miss B and Mr C !</h3>
@@ -15,6 +15,11 @@
 export default {
   props: {
     text: String
+  },
+  methods: {
+    goToBookHomepage() {
+      this.$router.push({ name: 'bookHomepage' })
+    }
   }
 }
 </script>
@@ -35,6 +40,7 @@ export default {
 }
 
 .header-logo {
+  cursor: pointer;
   position: absolute;
   margin-top: -12px;
   margin-left: 5px;
