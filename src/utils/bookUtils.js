@@ -33,38 +33,43 @@ class BookUtils {
     return this.books.filter((book) => book.main_genre === genre)
   }
 
+  getPDF(book) {
+    if (book.pdf) {
+      return `/assets/books/${book.id}/${book.pdf}`
+    }
+  }
+
   // Method to get the first main images from a book
   getFirstMainImage(book) {
     return this.getMainImages(book)[0]
   }
 
-  // Method to get all the main images from a book
+  // Method to get all the main images from a book, with a prexifed image path for each image.
   getMainImages(book) {
-    return this.getImages(book, 'main_images/images')
-  }
-
-  // Method to get all the main thumbnails from a book
-  getMainThumbnails(book) {
-    return this.getImages(book, 'main_images/thumbnails')
-  }
-
-  // Method to get all the secondary images from a book
-  getSecondaryImages(book) {
-    return this.getImages(book, 'secondary_images/images')
-  }
-
-  // Method to get all the secondary thumbnails from a book
-  getSecondaryThumbnails(book) {
-    return this.getImages(book, 'secondary_images/thumbnails')
-  }
-
-  // Method to get the list of main/secondary images/thumbnails with their respective correct path.
-  getImages(book, imageType) {
-    if (!book) {
-      throw new Error('Book not found')
+    if (book.main_images) {
+      return book.main_images.map((image) => `/assets/books/${book.id}/main_images/images/${image}`)
     }
-    // Prefix the image path for each image
-    return book.main_images.map((image) => `/assets/books/${book.id}/${imageType}/${image}`)
+  }
+
+  // Method to get all the main thumbnails from a book, with a prexifed image path for each image.
+  getMainThumbnails(book) {
+    if (book.main_images) {
+      return book.main_images.map((image) => `/assets/books/${book.id}/main_images/thumbnails/${image}`)
+    }
+  }
+
+  // Method to get all the secondary images from a book, with a prexifed image path for each image.
+  getSecondaryImages(book) {
+    if (book.secondary_images) {
+      return book.secondary_images.map((image) => `/assets/books/${book.id}/secondary_images/images/${image}`)
+    }
+  }
+
+  // Method to get all the secondary thumbnails from a book, with a prexifed image path for each image.
+  getSecondaryThumbnails(book) {
+    if (book.secondary_images) {
+      return book.secondary_images.map((image) => `/assets/books/${book.id}/secondary_images/thumbnails/${image}`)
+    }
   }
 }
 

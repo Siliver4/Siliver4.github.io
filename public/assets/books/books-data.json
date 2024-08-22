@@ -10,7 +10,7 @@
     "description": "Une épopée fantastique dans un monde médiéval peuplé de créatures mythiques.",
     "pdf": "seigneur-des-agneaux.pdf",
     "main_images": ["seigneur-des-agneaux-main.jpg", "seigneur-des-agneaux-main2.jpg"],
-    "secondary_images": ["seigneur-des-agneaux-sec.jpg", "seigneur-des-agneaux-sec2.jpg"],
+    "secondary_images": ["seigneur-des-agneaux-sec.jpg", "seigneur-des-agneaux-sec2.jpg","seigneur-des-agneaux-sec.jpg", "seigneur-des-agneaux-sec2.jpg","seigneur-des-agneaux-sec.jpg", "seigneur-des-agneaux-sec2.jpg"],
     "retail_links": [
       { "url": "https://example.com/buy/seigneur-des-agneaux-amazon", "label": "Amazon" },
       { "url": "https://example.com/buy/seigneur-des-agneaux-carrefour", "label": "Carrefour" }

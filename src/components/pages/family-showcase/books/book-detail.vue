@@ -9,7 +9,7 @@
         <div class="row g-3">
           <div class="col-12 col-md-7">
             <div class="content-70 p-2 text-center">
-              <BookPdfOrDescriptionArea :pdf="book.pdf" :description="book.description" />
+              <BookPdfOrDescriptionArea :pdf="bookUtils.getPDF(book)" :description="book.description" />
             </div>
           </div>
 
@@ -20,11 +20,11 @@
           </div>
         </div>
       </div>
+
       <BookRetailLinkList :retail-link-list="book.retail_links" />
       <BookComment :comment="book.author_comment" />
       <BookSecondaryImagesCarousel :images="bookUtils.getSecondaryThumbnails(book)" />
-
-      <button class="btn btn-primary" a11y-label="Revenir à la page d'accueil" @click="back()">
+      <button class="btn btn-primary mt-3" a11y-label="Revenir à la page d'accueil" @click="back()">
         <i class="bi bi-house-door-fill me-2"></i>
         <span>Revenir à la page d'accueil</span>
       </button>

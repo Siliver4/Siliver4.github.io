@@ -25,7 +25,10 @@
 <script>
 export default {
   props: {
-    images: [],
+    images: {
+      type: Array,
+      default: () => [] // Tableau vide par défaut
+    },
     edition: null
   }
 }
