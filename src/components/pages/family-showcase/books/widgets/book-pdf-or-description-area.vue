@@ -1,12 +1,18 @@
 <template>
-  <div class="pdf-viewer mt-3" ref="pdfCanvasContainer">
-    <canvas ref="pdfCanvas"></canvas>
-    <div v-if="loading" class="loading">Loading...</div>
-    <div v-if="error" class="error">{{ error }}</div>
-    <div class="pdf-controls">
-      <button @click="renderPreviousDocumentPage" :disabled="pageNum === 1">Previous</button>
-      <button @click="renderNextDocumentPage" :disabled="pageNum === totalPages">Next</button>
-    </div>
+  <div class="pdf-viewer-container" :class="{ 'mt-3': !isMobile }" ref="pdfCanvasContainer">
+    <template v-if="isMobile">
+      <button @click="openPdfInNewTab" class="open-pdf-button clickable">Ouvrir le PDF dans un nouvel onglet</button>
+    </template>
+
+    <template v-else>
+      <canvas @click="openPdfInNewTab" class="clickable" ref="pdfCanvas"></canvas>
+      <div v-if="loading" class="loading">Loading...</div>
+      <div v-if="error" class="error">{{ error }}</div>
+      <div class="pdf-controls">
+        <button @click="renderPreviousDocumentPage" :disabled="pageNum === 1">Previous</button>
+        <button @click="renderNextDocumentPage" :disabled="pageNum === totalPages">Next</button>
+      </div>
+    </template>
   </div>
 </template>
 
@@ -37,9 +43,19 @@ export default {
     }
   },
   async mounted() {
-    this.renderDocumentPageByIndex(1)
+    if (!this.isMobile) {
+      this.renderDocumentPageByIndex(1)
+    }
+  },
+  computed: {
+    isMobile() {
+      return window.innerWidth <= 992
+    }
   },
   methods: {
+    openPdfInNewTab() {
+      window.open(this.pdf, '_blank')
+    },
     setCanvasDimentionAtFirstLoading() {
       if (null == this.width || null == this.height) {
         // Récupérer les dimensions du conteneur
@@ -109,11 +125,25 @@ export default {
 </script>
 
 <style scoped>
-.pdf-viewer {
+.pdf-viewer-container {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.open-pdf-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.open-pdf-button:hover {
+  background-color: #0056b3;
 }
 
 .pdf-controls {
@@ -135,5 +165,9 @@ export default {
   color: red;
   text-align: center;
   margin-top: 20px;
+}
+
+.clickable {
+  cursor: pointer;
 }
 </style>

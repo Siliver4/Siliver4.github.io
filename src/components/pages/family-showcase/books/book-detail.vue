@@ -7,13 +7,13 @@
 
       <div class="mt-1">
         <div class="row g-3">
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-lg-7">
             <div class="content-70 p-2 text-center">
               <BookPdfOrDescriptionArea :pdf="bookUtils.getPDF(book)" :description="book.description" />
             </div>
           </div>
 
-          <div class="col-12 col-md-5">
+          <div class="col-12 col-lg-5">
             <div class="content-30 p-2 text-center">
               <BookMainImagesCarousel :images="bookUtils.getMainThumbnails(book)" :edition="book.edition" />
             </div>
