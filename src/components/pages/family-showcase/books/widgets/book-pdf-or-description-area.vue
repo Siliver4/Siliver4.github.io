@@ -1,6 +1,6 @@
 <template>
-  <div class="pdf-viewer-container" :class="{ 'mt-3': !isMobile }" ref="pdfCanvasContainer">
-    <template v-if="isMobile">
+  <div class="pdf-viewer-container" :class="{ 'mt-3': canShowPdfViewer }" ref="pdfCanvasContainer">
+    <template v-if="!canShowPdfViewer">
       <button @click="openPdfInNewTab" class="open-pdf-button clickable">Ouvrir le PDF dans un nouvel onglet</button>
     </template>
 
@@ -43,13 +43,20 @@ export default {
     }
   },
   async mounted() {
-    if (!this.isMobile) {
+    if (this.canShowPdfViewer) {
       this.renderDocumentPageByIndex(1)
     }
   },
   computed: {
+    canShowPdfViewer() {
+      return !this.isMobile && !this.isSafariOrMacBrowser
+    },
     isMobile() {
       return window.innerWidth <= 992
+    },
+    isSafariOrMacBrowser() {
+      const userAgent = navigator.userAgent.toLowerCase()
+      return userAgent.includes('safari') || userAgent.includes('mac')
     }
   },
   methods: {
