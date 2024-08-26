@@ -3,11 +3,8 @@ site web vitrine famille
 -> pour consulter le site, aller sur l'url suivante 'https://siliver4.github.io/family-showcase/book-homepage'
 
 ## libraries doc
-Style library : 'Bootstrap5' https://getbootstrap.com/docs/5.0
-PDF JS library : 'pdfjs-dist' https://github.com/mozilla/pdf.js
-Cache library : 'Pinia' https://pinia.vuejs.org/core-concepts/
-Utility String/Array library : 'Lodash' https://lodash.com/docs/
-Date library : 'Momentjs' https://momentjs.com/docs/
+| [Style library : 'Bootstrap5'](https://getbootstrap.com/docs/5.0)  | [PDF JS library : 'pdfjs-dist'](https://github.com/mozilla/pdf.js) | [Cache library : 'Pinia'](https://pinia.vuejs.org/core-concepts/) | [Utility String/Array library : 'Lodash'](https://lodash.com/docs/) | [Date library : 'Momentjs'](https://momentjs.com/docs/) |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 
 ## Project Setup
 ```sh
