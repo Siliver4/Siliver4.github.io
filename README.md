@@ -3,7 +3,11 @@ site web vitrine famille
 -> pour consulter le site, aller sur l'url suivante 'https://siliver4.github.io/family-showcase/book-homepage'
 
 ## libraries doc
-Bootstrap5 https://getbootstrap.com/docs/5.0
+Style library : 'Bootstrap5' https://getbootstrap.com/docs/5.0
+PDF JS library : 'pdfjs-dist' https://github.com/mozilla/pdf.js
+Cache library : 'Pinia' https://pinia.vuejs.org/core-concepts/
+Utility String/Array library : 'Lodash' https://lodash.com/docs/
+Date library : 'Momentjs' https://momentjs.com/docs/
 
 ## Project Setup
 ```sh
@@ -69,7 +73,13 @@ Pour que le formattage se lance automatiquement à la sauvegarde, ajouter ceci d
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.openFoldersInNewWindow": "on",
+    "sonarlint.rules": {
+        "Web:S6851": {
+            "level": "on"
+        }
+    }
 }
 ```
 
@@ -93,3 +103,9 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
   - éventuellement placer dans le json des liens vers les id des livres concernés, afin de pouvoir ouvrir une page listant ces derniers.
   - recherche d'annecdotes via un champ / page prévu pour.
   - notion d'annecdote qui pourrait aider au référencement du site.
+- gestion des styles à revoir sur Safari/Mac pour de grands écrans
+- Refacto/Nettoyage/Rangement du code overall (le css notamment)
+- Voir pour une utilisation plus avancée de la lib de lecteur pdf 'pdfjs-dist' (même si incompatible avec Safari/Mac sadly)
+- Voir pour la notion de référencement via balise/tag html, le jour où l'on aura enfin de vraie données/livres éditées et non plus de simple mock de moutons :)
+- Faire un logo ou bien garder notre old bluebird ?
+- implémenter la mécaniques de thumbnails à afficher, et des images en qualité maximale via de grandes popin/modal.
