@@ -1,6 +1,13 @@
 export const base = '/'
 
 export const routes = {
+  // ======= Alexandre 'Rokh' Mailliu Games : ============================================ //
+  alexandreRokhMailliuGamesHomepageAboutMe: '/alexandre-rokh-mailliu-games/about-me',
+  alexandreRokhMailliuGamesHomepageMyGames: '/alexandre-rokh-mailliu-games/my-games',
+  alexandreRokhMailliuGamesHomepageFollowMe: '/alexandre-rokh-mailliu-games/follow-me',
+  alexandreRokhMailliuGamesHomepageContactMe: '/alexandre-rokh-mailliu-games/contact-me',
+  // ======= Alexandre 'Rokh' Mailliu Games : ============================================ //
+
   // ======= family-showcase : =========================================================== //
   familyShowcaseHomepage: '/family-showcase',
   bookHomepage: '/family-showcase/book-homepage',
@@ -23,5 +30,7 @@ export const routes = {
   rokhWosDocumentation: '/rokh-temple/rokhWosDocumentation',
   // ======= rokh-temple : =============================================================== //
 
+  // ======= others : ==================================================================== //
   nothing: '/nothing'
+  // ======= others : ==================================================================== //
 }

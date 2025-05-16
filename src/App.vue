@@ -21,7 +21,7 @@ export default {
   watch: {
     $route(to) {
       // Récupérer le nom de la route ou un autre attribut défini dans la route
-      const pageTitle = to.meta.title || 'Family Showcase'
+      const pageTitle = to.meta.title || "Alexandre 'Rokh' Mailliu Games" //'Family Showcase'
       document.title = pageTitle
     }
   },

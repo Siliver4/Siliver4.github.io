@@ -1,0 +1,57 @@
+[
+  {
+    "id": "armg_001",
+    "game_cover": "header_capsule_920x430.png",
+    "title": "The Duck Amikaze Strikes Back",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1rUL3YOYWGfZOfZDYEod-iFREAPH-S7HD?usp=sharing" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCYeIEaXStfTjsAKzgCVZcIg" },
+      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" }
+    ]
+  },
+  {
+    "id": "armg_002",
+    "game_cover": "game2_mock_920x430.png",
+    "title": "The Duck Amikaze Strikes Back and again and again and again and again",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1rUL3YOYWGfZOfZDYEod-iFREAPH-S7HD?usp=sharing" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCYeIEaXStfTjsAKzgCVZcIg" },
+      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" },
+      { "enum_button": "BUY_ON_ITCHIO", "url": "" },
+      { "enum_button": "BUY_ON_SWITCH", "url": "" },
+      { "enum_button": "BUY_ON_PS5", "url": "" },
+      { "enum_button": "BUY_ON_PS6", "url": "" },
+      { "enum_button": "BUY_ON_XBOX", "url": "" }
+    ]
+  },
+  {
+    "id": "armg_003",
+    "game_cover": "game3_mock_920x430.png",
+    "title": "The Pretty Duck Amikaze Strikes Back",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1rUL3YOYWGfZOfZDYEod-iFREAPH-S7HD?usp=sharing" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCYeIEaXStfTjsAKzgCVZcIg" },
+      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" },
+      { "enum_button": "BUY_ON_ITCHIO", "url": "" },
+      { "enum_button": "BUY_ON_SWITCH", "url": "" }
+    ]
+  },
+  {
+    "id": "armg_004",
+    "game_cover": "game4_mock_920x430.png",
+    "title": "The Legendary Duck Amikaze Strikes Back",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1rUL3YOYWGfZOfZDYEod-iFREAPH-S7HD?usp=sharing" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCYeIEaXStfTjsAKzgCVZcIg" },
+      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" }
+    ]
+  }
+]
