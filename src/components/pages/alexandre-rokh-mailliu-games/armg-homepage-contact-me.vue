@@ -8,7 +8,7 @@
         <p>Hi there! If you want you can contact me by:</p>
         <p>
           → sending me a message or replying to one of my tweets on my
-          <a href="https://x.com/AlexMailliu" target="_blank" rel="my x / twitter account">X / Twitter account</a>
+          <a href="https://x.com/AlexMailliu" target="_blank" rel="my X/Twitter account">X/Twitter account</a>
         </p>
 
         <p>→ sending me an email at alexandre.rokh.mailliu.games@gmail.com</p>

@@ -7,9 +7,9 @@
       <div class="mt-3">
         <br />
         <p>
-          If you want to follow what I do, you can do so by following me on Twitter/X or YouTube. I try to share my work as I progress through my
-          projects, but it's tough to always think about capturing the moment. I'm often deeply plundge in my work so I definitly don't spam the
-          news for now, but don't worry I'm working on it!
+          Hi there! If you want to follow what I do, you can do so by following me on X/Twitter or YouTube. I try to share my work as I progress
+          through my projects, but it's tough to always think about capturing the moment. I'm often deeply plundge in my work so I definitly don't
+          spam the news for now, but don't worry I'm working on it!
         </p>
         <br />
         <div class="mt-4">
@@ -20,7 +20,7 @@
                 @click="openLink('https://x.com/AlexMailliu')"
                 :style="{ backgroundColor: '#1C96E8' }"
               >
-                <img src="/assets/alexandre-rokh-mailliu-games/common/miniwhite_x_twitter.png" alt="X / Twitter" class="armg-button-image" />
+                <img src="/assets/alexandre-rokh-mailliu-games/common/miniwhite_x_twitter.png" alt="X/Twitter" class="armg-button-image" />
                 <span class="armg-button-span">My X/Twitter Account</span>
               </button>
             </div>

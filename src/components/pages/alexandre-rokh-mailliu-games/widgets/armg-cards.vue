@@ -50,7 +50,7 @@
 
               <!-- Section 3 : Acheter le jeu + tous les boutons à partir de l'index 4 -->
               <p class="card-text mt-3">
-                <small class="text-muted">Buy the game here:</small>
+                <small class="text-muted">Buy my game here:</small>
               </p>
               <div class="row g-1 mt-2">
                 <div v-for="(button, index) in game.button_list.slice(4)" :key="'button-buy-' + button.enum_button" class="col-6 d-flex">
