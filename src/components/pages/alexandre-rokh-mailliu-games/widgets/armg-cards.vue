@@ -18,7 +18,7 @@
               <p class="card-text">
                 <small class="text-muted">Press Kit & Complete Credit:</small>
               </p>
-              <div class="row g-1 mt-3">
+              <div class="row g-1">
                 <div v-for="(button, index) in game.button_list.slice(0, 2)" :key="'button-presskit-' + button.enum_button" class="col-6 d-flex">
                   <button
                     class="armg-button btn btn-secondary w-100 h-100"
@@ -35,7 +35,7 @@
               <p class="card-text mt-3">
                 <small class="text-muted">Watch videos or live streams about my game here:</small>
               </p>
-              <div class="row g-1 mt-2">
+              <div class="row g-1">
                 <div v-for="(button, index) in game.button_list.slice(2, 4)" :key="'button-watch-' + button.enum_button" class="col-6 d-flex">
                   <button
                     class="armg-button btn btn-secondary w-100 h-100"
@@ -52,7 +52,7 @@
               <p class="card-text mt-3">
                 <small class="text-muted">Buy my game here:</small>
               </p>
-              <div class="row g-1 mt-2">
+              <div class="row g-1">
                 <div v-for="(button, index) in game.button_list.slice(4)" :key="'button-buy-' + button.enum_button" class="col-6 d-flex">
                   <button
                     class="armg-button btn btn-secondary w-100 h-100"

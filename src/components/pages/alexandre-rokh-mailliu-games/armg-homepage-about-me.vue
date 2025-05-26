@@ -22,7 +22,7 @@
         <br />
         <p>
           I've been influenced a lot by games like The Legend of Zelda: Twilight Princess, The Legend of Zelda: Minish Cap, Kirby NES, Rayman 1 & 2
-          & 3, Pokemon Emerald, Shovel Knight, DMC Devil May Cry, Bioshock, Bioshock Infinite, Brütal Legend, Psychonauts, Hitman Absolution...
+          & 3, Pokemon Emerald, Shovel Knight, DmC: Devil May Cry, Bioshock, Bioshock Infinite, Brütal Legend, Psychonauts, Hitman Absolution...
           among so many others. There is not enough of a lifetime anymore, to fully discover all the wonders in the world.
         </p>
         <br />
