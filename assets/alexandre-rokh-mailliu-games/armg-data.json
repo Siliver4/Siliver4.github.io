@@ -7,7 +7,7 @@
       { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1rUL3YOYWGfZOfZDYEod-iFREAPH-S7HD?usp=sharing" },
       { "enum_button": "COMPLETE_CREDIT", "url": "https://drive.google.com/drive/folders/10wA7ufaZjzWwzZosSG9jKbaTzOk8PLst?usp=sharing" },
       { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCYeIEaXStfTjsAKzgCVZcIg/home" },
-      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "TWITCH_CONTENT", "url": "https://www.twitch.tv/directory/category/the-duck-amikaze-strikes-back/videos/all" },
       { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" }
     ]
   }
