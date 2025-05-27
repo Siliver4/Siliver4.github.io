@@ -104,6 +104,8 @@ export default {
           return '#6441A5'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_STEAM:
           return '#282E39'
+        case EnumAlexandreRokhMailliuGamesButton.DEMO_ON_ITCHIO:
+          return '#FA5C5C'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_ITCHIO:
           return '#FA5C5C'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_EPIC_GAMES:
@@ -130,6 +132,8 @@ export default {
           return 'Twitch Content'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_STEAM:
           return 'Steam'
+        case EnumAlexandreRokhMailliuGamesButton.DEMO_ON_ITCHIO:
+          return 'itch.io (Demo Only)'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_ITCHIO:
           return 'itch.io'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_EPIC_GAMES:
@@ -156,6 +160,8 @@ export default {
           return '/assets/alexandre-rokh-mailliu-games/common/miniwhite_twitch.png'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_STEAM:
           return '/assets/alexandre-rokh-mailliu-games/common/miniwhite_steam.png'
+        case EnumAlexandreRokhMailliuGamesButton.DEMO_ON_ITCHIO:
+          return '/assets/alexandre-rokh-mailliu-games/common/miniwhite_itch.png'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_ITCHIO:
           return '/assets/alexandre-rokh-mailliu-games/common/miniwhite_itch.png'
         case EnumAlexandreRokhMailliuGamesButton.BUY_ON_EPIC_GAMES:
