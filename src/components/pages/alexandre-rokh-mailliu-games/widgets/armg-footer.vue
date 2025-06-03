@@ -2,7 +2,7 @@
   <div>
     <footer class="custom-footer">
       <div class="footer-text">
-        <p>© 2024-2025 Alexandre Mailliu, All rights reserved.</p>
+        <p>© 2024-{{ currentYear }} Alexandre Mailliu, All rights reserved.</p>
       </div>
     </footer>
   </div>
@@ -12,6 +12,11 @@
 export default {
   props: {
     text: String
+  },
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
+    }
   }
 }
 </script>
