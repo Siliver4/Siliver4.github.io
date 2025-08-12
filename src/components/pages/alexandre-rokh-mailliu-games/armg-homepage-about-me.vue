@@ -6,7 +6,7 @@
 
       <div class="mt-3">
         <br />
-        <p>Hi there! I'm the solo indie developer of 'The Duck Amikaze Strikes Back' which you can find on Steam.</p>
+        <p>Hi there! I'm the solo indie developer of 'The Duck Amikaze Strikes Back' & 'Gran Theft Lure' which you can find on Steam.</p>
         <p>
           After 5 years working as a web developer, I could no longer find any meaning in what I was doing, and I desperately needed to reconnect
           with my inner self.
