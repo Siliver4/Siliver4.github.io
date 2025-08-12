@@ -1,5 +1,17 @@
 [
   {
+    "id": "armg_002",
+    "game_cover": "steam_920x430.jpg",
+    "title": "Gran Theft Lure",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "to come" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "to come" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "to come" },
+      { "enum_button": "TWITCH_CONTENT", "url": "to come" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3413520/The_Duck_Amikaze_Strikes_Back/" }
+    ]
+  },
+  {
     "id": "armg_001",
     "game_cover": "header_capsule_920x430.png",
     "title": "The Duck Amikaze Strikes Back",
