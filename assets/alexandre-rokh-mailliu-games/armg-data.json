@@ -6,8 +6,8 @@
     "button_list": [
       { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1h9oXXVmT8QTDCq8OFool-MiaYw9mSzPh?usp=sharing" },
       { "enum_button": "COMPLETE_CREDIT", "url": "to come" },
-      { "enum_button": "YOUTUBE_CONTENT", "url": "to come" },
-      { "enum_button": "TWITCH_CONTENT", "url": "to come" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCrC0rzRskGEunu8WrfT2wqw/home" },
+      { "enum_button": "TWITCH_CONTENT", "url": "https://www.twitch.tv/directory/category/gran-theft-lure" },
       { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/3907500/Gran_Theft_Lure/" }
     ]
   },
