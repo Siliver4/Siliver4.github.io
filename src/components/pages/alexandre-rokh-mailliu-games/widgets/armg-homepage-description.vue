@@ -7,7 +7,7 @@
     </p>
     <p>
       → If you want to watch more content about my games, you'll find links to the YouTube topic page and Twitch category, they gather all the
-      videos & live streams tagged with my games.
+      videos & recent live streams tagged with my games.
     </p>
     <p>→ If you're interested in buying my games, you'll find a list of all the platforms where they’re available.</p>
   </div>
