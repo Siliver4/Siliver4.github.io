@@ -33,7 +33,7 @@
 
               <!-- Section 2 : Watch content + boutons 2 et 3 -->
               <p class="card-text mt-3">
-                <small class="text-muted">Watch videos or live streams about my game here:</small>
+                <small class="text-muted">Watch videos or recent live streams about my game here:</small>
               </p>
               <div class="row g-1">
                 <div v-for="(button, index) in game.button_list.slice(2, 4)" :key="'button-watch-' + button.enum_button" class="col-6 d-flex">
