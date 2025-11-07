@@ -30,6 +30,7 @@ export default createRouter({
       component: pages.alexandreRokhMailliuGamesHomepageContactMe,
       meta: { title: "Alexandre 'Rokh' Mailliu Games - Contact Me" }
     },
+
     // ======= Alexandre 'Rokh' Mailliu Games : ============================================ //
 
     // ======= family-showcase : =========================================================== //
@@ -49,6 +50,9 @@ export default createRouter({
 
     // default route that redirect on 'alexandreRokhMailliuGamesHomepageMyGames'.
     { name: 'default', path: '/', redirect: { name: 'alexandreRokhMailliuGamesHomepageMyGames' } },
+    // Default route lead towards 'My Games'.
+    { name: 'default2', path: routes.alexandreRokhMailliuGames1, redirect: { name: 'alexandreRokhMailliuGamesHomepageMyGames' } },
+    { name: 'default3', path: routes.alexandreRokhMailliuGames2, redirect: { name: 'alexandreRokhMailliuGamesHomepageMyGames' } },
 
     // route to capture all non defined routes.
     { path: '/:catchAll(.*)', redirect: { name: 'nothing' } }

@@ -2,6 +2,8 @@ export const base = '/'
 
 export const routes = {
   // ======= Alexandre 'Rokh' Mailliu Games : ============================================ //
+  alexandreRokhMailliuGames1: '/alexandre-rokh-mailliu-games',
+  alexandreRokhMailliuGames2: '/alexandre-rokh-mailliu-games/',
   alexandreRokhMailliuGamesHomepageAboutMe: '/alexandre-rokh-mailliu-games/about-me',
   alexandreRokhMailliuGamesHomepageMyGames: '/alexandre-rokh-mailliu-games/my-games',
   alexandreRokhMailliuGamesHomepageFollowMe: '/alexandre-rokh-mailliu-games/follow-me',
