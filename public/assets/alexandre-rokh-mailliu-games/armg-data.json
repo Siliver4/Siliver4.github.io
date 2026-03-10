@@ -1,5 +1,18 @@
 [
   {
+    "id": "armg_003",
+    "game_cover": "steam_920x430_v3.png",
+    "title": "It's Chopping Time!",
+    "button_list": [
+      { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1b3jiS61PalFfiT2WorfGD8OFWSni3vbu?usp=sharing" },
+      { "enum_button": "COMPLETE_CREDIT", "url": "https://drive.google.com/drive/folders/1b3jiS61PalFfiT2WorfGD8OFWSni3vbu?usp=sharing" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "" },
+      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/4272270/Its_Chopping_Time/" },
+      { "enum_button": "DEMO_ON_ITCHIO", "url": "https://alexandre-rokh-mailliu.itch.io/its-chopping-time-demo" }
+    ]
+  },
+  {
     "id": "armg_002",
     "game_cover": "steam_v2_920x430.jpg",
     "title": "Gran Theft Lure",
