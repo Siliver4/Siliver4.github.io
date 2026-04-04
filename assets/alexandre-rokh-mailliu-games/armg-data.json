@@ -6,8 +6,8 @@
     "button_list": [
       { "enum_button": "PRESSKIT", "url": "https://drive.google.com/drive/folders/1b3jiS61PalFfiT2WorfGD8OFWSni3vbu?usp=sharing" },
       { "enum_button": "COMPLETE_CREDIT", "url": "https://drive.google.com/drive/folders/1b3jiS61PalFfiT2WorfGD8OFWSni3vbu?usp=sharing" },
-      { "enum_button": "YOUTUBE_CONTENT", "url": "" },
-      { "enum_button": "TWITCH_CONTENT", "url": "" },
+      { "enum_button": "YOUTUBE_CONTENT", "url": "https://www.youtube.com/channel/UCMmTzQmrsBUl2qVrHbH0YNA/home" },
+      { "enum_button": "TWITCH_CONTENT", "url": "https://www.twitch.tv/directory/category/its-chopping-time" },
       { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/4272270/Its_Chopping_Time/" },
       { "enum_button": "DEMO_ON_ITCHIO", "url": "https://alexandre-rokh-mailliu.itch.io/its-chopping-time-demo" }
     ]
