@@ -10,7 +10,7 @@
       { "enum_button": "TWITCH_CONTENT", "url": "https://www.twitch.tv/directory/category/its-chopping-time" },
       { "enum_button": "BUY_ON_STEAM", "url": "https://store.steampowered.com/app/4272270/Its_Chopping_Time/" },
       { "enum_button": "DEMO_ON_ITCHIO", "url": "https://alexandre-rokh-mailliu.itch.io/its-chopping-time-demo" },
-      { "enum_button": "GOOGLE_PLAY_STORE_BUY_ME", "url": "https://alexandre-rokh-mailliu.itch.io/its-chopping-time-demo" },
+      { "enum_button": "GOOGLE_PLAY_STORE_BUY_ME", "url": "https://play.google.com/store/games" },
       { "enum_button": "GOOGLE_PLAY_STORE_PRIVACY_POLICY", "route_name": "alexandreRokhMailliuGamesHomepageGooglePlayStorePrivacyPolicyMyGamesItsChoppingTime" }
     ]
   },
