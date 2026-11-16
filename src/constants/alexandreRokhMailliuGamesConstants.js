@@ -9,9 +9,12 @@ export const EnumAlexandreRokhMailliuGamesButton = Object.freeze({
   DEMO_ON_ITCHIO: 'DEMO_ON_ITCHIO',
   BUY_ON_EPIC_GAMES: 'BUY_ON_EPIC_GAMES',
   BUY_ON_SWITCH: 'BUY_ON_SWITCH',
+  BUY_ON_PLAYSTATION: 'BUY_ON_PLAYSTATION',
   BUY_ON_PS5: 'BUY_ON_PS5',
   BUY_ON_PS6: 'BUY_ON_PS6',
-  BUY_ON_XBOX: 'BUY_ON_XBOX'
+  BUY_ON_XBOX: 'BUY_ON_XBOX',
+  GOOGLE_PLAY_STORE_BUY_ME: 'GOOGLE_PLAY_STORE_BUY_ME',
+  GOOGLE_PLAY_STORE_PRIVACY_POLICY: 'GOOGLE_PLAY_STORE_PRIVACY_POLICY'
 })
 
 // Object.freeze rend l’objet immuable, cela permet de faire un équivalent d'une enum.
