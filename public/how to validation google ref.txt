@@ -1,0 +1,9 @@
+Sur le site https://search.google.com/search-console/welcome
+préfixe de l'URL
+https://siliver4.github.io/
+un fichier html très simple a été généré par google, et j'ai juste mis ce fichier dans le dossier public de mon site,
+google7b6817782930fefe.html et le tour est joué.
+Mais on peut ajouter d'autre options au cas zou celle ci casserait.
+il existe d'autre élément comme les balises HTML afin de valider le site comme étant le mien,
+sur cette url: https://search.google.com/search-console/ownership?resource_id=https%3A%2F%2Fsiliver4.github.io%2F
+mais seul celui dont on ne doit pas prononcer le nom est autorisé.
